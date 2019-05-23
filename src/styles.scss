@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+html, body, div#root, #quote-box {
+  height: 100%;
+}
+
+#text {
+  text-align: center;
+  font-style: italic;
+}
+
+.card-body {
+  align-self: flex-end;
+  padding: 10px;
+
+  .card-text {
+    font-weight: bold;
+  }
+}
+
+header {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.quote-icon {
+  color: purple;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.quote-container {
+  border-bottom: 1px solid purple;
+  padding-bottom: 10px;
+  margin: 0 10px;
+}
+
+#quote-box {
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
